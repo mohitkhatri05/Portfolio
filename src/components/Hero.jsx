@@ -1,5 +1,6 @@
 import React from 'react'
 import SciFiComp from './sci-fi-comp';
+import Button from './Button'
 // import {motion} from 'framer-motion'
 // import {styles} from '../style'
 // import {computerCanvas} from './canvas'
@@ -21,6 +22,9 @@ const Hero = () => {
         <SciFiComp />
         
       </div>
+     <a  href="#contact" className="flex justify-center items-center">
+     <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+      </a>
     </section>
   )
 }

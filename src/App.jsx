@@ -5,13 +5,13 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
-import About from "./components/about.jsx";
-import Experience from "./components/experience.jsx";
+import About from "./components/About.jsx";
 import Tech from "./components/tech.jsx";
 import Works from "./components/works.jsx";
 import Feedbacks from "./components/feedbacks.jsx";
 import Contact from "./components/contact.jsx";
 import Stars from "./components/stars.jsx";
+import Button from "./components/Button.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,7 +22,6 @@ function App() {
         <Navbar />
         <Hero />
         <About />
-        <Experience />
         <Tech />
         <Works />
         <Feedbacks />
