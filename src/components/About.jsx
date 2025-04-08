@@ -2,8 +2,8 @@ import React from 'react'
 
 const about = () => {
   return (
-    <div>
-      about
+    <div className='' style={{ backgroundImage: "url('/portfolio_assets/Deep Space.jpg')" }}>
+     
     </div>
   )
 }

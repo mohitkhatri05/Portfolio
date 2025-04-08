@@ -13,12 +13,13 @@ const Hero = () => {
         <p className="sm:text-3xl text-lg font-light text-gray-300 text-center font-generalsans">
           Hello I am
         </p>
-        <p className="sm:text-9xl text-xl font-bold text-gray-200 text-center font-stretch-ultra-expanded">
+        <p className="sm:text-9xl text-xl font-bold text-gray-200 text-center font-stretch-ultra-expanded bg-clip-text bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight">
           Mohit Khatri
         </p>
       </div>
       <div className="w-full h-full inset-0 absolute">
         <SciFiComp />
+        
       </div>
     </section>
   )

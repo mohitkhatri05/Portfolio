@@ -99,7 +99,7 @@ const Navbar = () => {
               className="w-9 h-9"
             />
 
-            <div className="text-white font-semibold cursor-pointer text-lg ml-2" style={{backgroundColor: "rgba(228, 3, 3, 0.5)"}}>
+            <div className="text-white font-semibold cursor-pointer text-lg ml-2" >
               Mohit Khatri
             </div>
           </Link>

@@ -1,33 +1,74 @@
-import React from 'react';
-import { Canvas } from '@react-three/fiber';
+import React, { useEffect, useRef, useState } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
+import { motion } from 'framer-motion-3d';
+import * as THREE from 'three';
 
-
-
-const SciFiComp = () => {
+const Model = () => {
   const { scene } = useGLTF('/portfolio_assets/sci-fi_computer.glb');
+  const groupRef = useRef();
+  const [mouse, setMouse] = useState({ x: 0, y: 0 });
+
+  // Center the model
+  useEffect(() => {
+    const box = new THREE.Box3().setFromObject(scene);
+    const center = new THREE.Vector3();
+    box.getCenter(center);
+    scene.position.sub(center);
+  }, [scene]);
+
+  // Cursor movement animation
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      const x = (e.clientX / window.innerWidth) * 2 - 1;
+      const y = -(e.clientY / window.innerHeight) * 2 + 1;
+      setMouse({ x, y });
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
+  // Apply rotation smoothly
+  useFrame(() => {
+    if (groupRef.current) {
+      groupRef.current.rotation.y = THREE.MathUtils.lerp(
+        groupRef.current.rotation.y,
+        mouse.x * 0.5,
+        0.05
+      );
+      groupRef.current.rotation.x = THREE.MathUtils.lerp(
+        groupRef.current.rotation.x,
+        mouse.y * 0.3,
+        0.05
+      );
+    }
+  });
 
   return (
-    <Canvas camera={{ position: [0, 2, 8], fov: 45 }}>
-      {/* Ambient light for soft overall lighting */}
-      <ambientLight intensity={0.8} />
-      
-      {/* Directional light for shadows and highlights */}
-      <directionalLight position={[5, 5, 5]} intensity={1.5} />
-      
-      {/* Spotlight for more dramatic lighting */}
-      <spotLight position={[0, 5, 10]} angle={0.3} intensity={2} penumbra={1} castShadow />
-      
-      {/* Position and scale your model properly */}
-      <primitive object={scene} scale={0.9} position={[0, -2, 0]} rotation={[-9.6, -110, 91.1]} />
+    <motion.group
+      ref={groupRef}
+      scale={0.9}
+      position={[0, -2.5, 0]}
+    >
+      <primitive object={scene} />
+    </motion.group>
+  );
+};
 
-      {/* Enable OrbitControls for interaction */}
-      <OrbitControls enableZoom={false} />
+const SciFiComp = () => {
+  return (
+    <Canvas camera={{ position: [0, 2, 8], fov: 45 }}>
+      <ambientLight intensity={0.8} />
+      <directionalLight position={[5, 5, 5]} intensity={1.5} />
+      <spotLight position={[0, 5, 10]} angle={0.3} intensity={2} penumbra={1} castShadow />
+      <Model />
     </Canvas>
   );
 };
 
 export default SciFiComp;
+
 
 
 // import React, { useRef, useEffect, useState } from 'react';
