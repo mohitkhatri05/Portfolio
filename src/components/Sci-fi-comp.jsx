@@ -40,7 +40,7 @@ const Model = () => {
       groupRef.current.rotation.x = THREE.MathUtils.lerp(
         groupRef.current.rotation.x,
         mouse.y * 0.3,
-        0.05
+        0.05    
       );
     }
   });
