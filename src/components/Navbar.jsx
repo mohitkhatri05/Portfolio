@@ -69,8 +69,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
-  { id: "about", title: "About" },
-  { id: "experience", title: "Experience" },
+  { id: "about", title: "about" },
+  { id: "tech", title: "tech" },
   { id: "projects", title: "Projects" },
   { id: "contact", title: "Contact" },
 ];

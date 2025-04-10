@@ -6,7 +6,7 @@ import viteLogo from "/vite.svg";
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
-import Tech from "./components/tech.jsx";
+import Tech from "./components/Tech.jsx";
 import Works from "./components/works.jsx";
 import Feedbacks from "./components/feedbacks.jsx";
 import Contact from "./components/contact.jsx";
