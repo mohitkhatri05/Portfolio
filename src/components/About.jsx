@@ -19,7 +19,8 @@ const about = () => {
      
    
     <section className=" text-white py-16 px-4 md:px-16 mt-[-15px]" >
-      <div><p className="sm:text-9xl text-xl font-bold text-gray-200 text-center font-stretch-ultra-expanded bg-clip-text bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight">
+      <div><p className="sm:text-9xl text-xl font-bold text-gray-200 text-center
+       font-stretch-ultra-expanded bg-clip-text bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight">
           ABOUT ME
         </p></div>
       <div className="max-w-7xl  grid md:grid-cols-2 gap-10 items-center">

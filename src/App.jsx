@@ -7,11 +7,10 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Tech from "./components/Tech.jsx";
-import Works from "./components/works.jsx";
-import Feedbacks from "./components/feedbacks.jsx";
+import Project from "./components/Project.jsx";
 import Contact from "./components/contact.jsx";
-import Stars from "./components/stars.jsx";
-import Button from "./components/Button.jsx";
+
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,10 +22,9 @@ function App() {
         <Hero />
         <About />
         <Tech />
-        <Works />
-        <Feedbacks />
+        <Project />
         <Contact />
-        <Stars />
+        
       </body>
       
     </>
