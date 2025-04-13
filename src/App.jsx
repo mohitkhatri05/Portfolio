@@ -9,6 +9,7 @@ import About from "./components/About.jsx";
 import Tech from "./components/Tech.jsx";
 import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/footer.jsx";
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Tech />
         <Project />
         <Contact />
+        <Footer />
         
       </div>
       

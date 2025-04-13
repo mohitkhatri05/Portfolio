@@ -25,20 +25,20 @@ const Contact = () => {
   };
 
   return (
-    // <motion.section
-    //   id="contact"
-    //   ref={ref}
-    //   initial={{ opacity: 0, y: 50 }}
-    //   animate={isInView ? { opacity: 1, y: 0 } : {}} // Prevent unnecessary re-renders
-    //   transition={{ duration: 1, ease: "easeOut" }}
-    //   className="text-white py-16 px-4 md:px-16"
-    //   style={{
-    //     backgroundImage: "url('/portfolio_assets/Deep Space.jpg')",
-    //     backgroundSize: "cover",
-    //     backgroundPosition: "center",
-    //     backgroundRepeat: "no-repeat",
-    //   }}
-    // >
+    <motion.section
+      id="contact"
+      ref={ref}
+      initial={{ opacity: 0, y: 50 }}
+      animate={isInView ? { opacity: 1, y: 0 } : {}} // Prevent unnecessary re-renders
+      transition={{ duration: 1, ease: "easeOut" }}
+      className="text-white py-16 px-4 md:px-16"
+      style={{
+        backgroundImage: "url('/portfolio_assets/Deep Space.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="min-h-screen text-white px-4 flex flex-col items-center justify-center">
         {/* Heading */}
         <h2 className="sm:text-7xl text-4xl font-bold text-gray-200 text-center mb-16 bg-clip-text bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight">
@@ -109,7 +109,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    // </motion.section>
+     </motion.section>
   );
 };
 
