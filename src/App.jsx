@@ -8,7 +8,7 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Tech from "./components/Tech.jsx";
 import Project from "./components/Project.jsx";
-import Contact from "./components/contact.jsx";
+import Contact from "./components/Contact.jsx";
 
 
 
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <body className="bg-black text-white">
+      <div className="bg-black text-white">
         <Navbar />
         <Hero />
         <About />
@@ -25,7 +25,7 @@ function App() {
         <Project />
         <Contact />
         
-      </body>
+      </div>
       
     </>
   );

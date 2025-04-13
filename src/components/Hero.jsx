@@ -19,7 +19,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="w-full h-full inset-0 absolute">
-        <SciFiComp />
+        {/* <SciFiComp /> */}
         
       </div>
      <a  href="#contact" className="flex justify-center items-center">
