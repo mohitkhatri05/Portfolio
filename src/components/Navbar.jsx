@@ -69,8 +69,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
-  { id: "about", title: "about" },
-  { id: "tech", title: "tech" },
+  { id: "about", title: "About" },
+  { id: "tech", title: "Tech" },
   { id: "projects", title: "Projects" },
   { id: "contact", title: "Contact" },
 ];
@@ -82,7 +82,8 @@ const Navbar = () => {
 
   return (
     <nav className="w-full fixed top-0 left-0 z-50">
-      <div className="flex justify-between items-center  bg-slate-900  text-white min-h-16 w-full max-w-6xl mx-auto p-3 py-0.5 border-solid rounded-full border-2 border-amber-400 mt-5  shadow-[0_0_15px_#fbbf24]">
+      <div className="flex justify-between items-center  backdrop-blur-md bg-black/30  
+       text-white min-h-12 w-4xl max-w-6xl mx-auto p-3 py-0.5 border-solid rounded-full border border-white/20 mt-2 ">
         {/* Logo Section */}
         <div className="logo flex items-center">
           <Link
@@ -127,7 +128,9 @@ const Navbar = () => {
           <a
             href="/portfolio_assets/Mohit_Khatri_frontend_developer_CV (1).pdf"
             target="_blank"
-            className="bg-amber-500 rounded-full py-2 px-6 text-lg font-semibold hover:bg-amber-950 "
+            className="bg-black flex justify-center align-middle  rounded-full py-1 px-4.5 text-lg 
+             text-gray-400 font hover:bg-white
+             hover:text-black transition duration-200 ease-in-out"
           >
             Resume
           </a>
