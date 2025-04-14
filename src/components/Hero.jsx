@@ -7,6 +7,7 @@ import Button from './Button'
 const Hero = () => {
   return (
 <section
+      id="home"
       className="min-h-screen w-full flex flex-col relative"
       style={{ backgroundImage: "url('/portfolio_assets/Deep Space.jpg')" }}
     >
@@ -19,7 +20,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="w-full h-full inset-0 absolute">
-        {/* <SciFiComp /> */}
+        <SciFiComp />
         
       </div>
      <a  href="#contact" className="flex justify-center items-center">
