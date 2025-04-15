@@ -22,7 +22,7 @@ const Tech = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <div style={{ backgroundImage: "url('/portfolio_assets/Deep Space.jpg')" }}>
+    <div >
        <motion.div
           id="tech"
           ref={ref}

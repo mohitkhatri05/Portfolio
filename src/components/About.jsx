@@ -8,7 +8,7 @@ const About = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div style={{ backgroundImage: "url('/portfolio_assets/Deep Space.jpg')" }}>
+    <div>
       <motion.section
         id="about"
         ref={ref}

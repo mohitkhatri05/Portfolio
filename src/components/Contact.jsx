@@ -33,7 +33,7 @@ const Contact = () => {
       transition={{ duration: 1, ease: "easeOut" }}
       className="text-white py-16 px-4 md:px-16"
       style={{
-        backgroundImage: "url('/portfolio_assets/Deep Space.jpg')",
+       
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

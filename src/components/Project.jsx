@@ -263,7 +263,7 @@ const Project = () => {
   return (
     <section
       className="py-16 px-4"
-      style={{ backgroundImage: "url('/portfolio_assets/Deep Space.jpg')" }}
+     
     >
       <motion.section
     id="projects"
