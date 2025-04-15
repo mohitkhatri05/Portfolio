@@ -10,6 +10,7 @@ import Tech from "./components/Tech.jsx";
 import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/footer.jsx";
+import LampDemo from "./components/lamp-demo";
 
 
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <div className="bg-black text-white">
+      <LampDemo />
         <Navbar />
         <Hero />
         <About />
