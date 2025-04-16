@@ -20,9 +20,11 @@ function App() {
   return (
     <>
       <div className="bg-black text-white">
-      <LampDemo />
+      {/* <LampDemo /> */}
         <Navbar />
-        <Hero />
+     <LampDemo>
+      <Hero />
+     </LampDemo>
         <About />
         <Tech />
         <Project />

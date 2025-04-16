@@ -49,7 +49,7 @@ const Model = () => {
     <motion.group
       ref={groupRef}
       scale={0.9}
-      position={[0, -2.9, 0]}
+      position={[0, -3.6, 0]}
     >
       <primitive object={scene} />
     </motion.group>
@@ -58,7 +58,7 @@ const Model = () => {
 
 const SciFiComp = () => {
   return (
-    <Canvas camera={{ position: [0, 2, 8], fov: 45 }}>
+    <Canvas camera={{ position: [0, 2, 8], fov: 45 }} >
       <ambientLight intensity={0.8} />
       <directionalLight position={[5, 5, 5]} intensity={1.5} />
       <spotLight position={[0, 5, 10]} angle={0.3} intensity={2} penumbra={1} castShadow />
