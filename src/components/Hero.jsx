@@ -24,7 +24,7 @@ const Hero = () => {
         <SciFiComp />
         
       </div>
-     <a  href="#contact" className="flex justify-center items-center">
+     <a  href="#contact" className="flex justify-center items-center mt-12">
      <Button  name="Let's work together" isBeam containerClass="sm:w-fit w-full  sm:min-w-96 " />
       </a>
     </section>

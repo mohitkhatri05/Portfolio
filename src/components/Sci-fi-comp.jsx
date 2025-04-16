@@ -48,8 +48,8 @@ const Model = () => {
   return (
     <motion.group
       ref={groupRef}
-      scale={0.9}
-      position={[0, -0.9, 0]}
+      scale={0.7}
+      position={[0, -2, 0]}
     >
       <primitive object={scene} />
     </motion.group>
