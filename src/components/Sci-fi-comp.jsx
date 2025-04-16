@@ -49,7 +49,7 @@ const Model = () => {
     <motion.group
       ref={groupRef}
       scale={0.9}
-      position={[0, -3.6, 0]}
+      position={[0, -0.9, 0]}
     >
       <primitive object={scene} />
     </motion.group>

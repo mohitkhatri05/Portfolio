@@ -83,7 +83,7 @@ const Navbar = () => {
   return (
     <nav className="w-full fixed top-0 left-0 z-50">
       <div className="flex justify-between items-center  backdrop-blur-md bg-black/30  
-       text-white min-h-12 w-4xl max-w-6xl mx-auto p-3 py-0.5 border-solid rounded-full border border-white/20 mt-2 ">
+       text-white min-h-12 w-4xl max-w-6xl mx-auto p-3 py-0.5 border-solid rounded-full border border-white/40 mt-2 ">
         {/* Logo Section */}
         <div className="logo flex items-center">
           <Link

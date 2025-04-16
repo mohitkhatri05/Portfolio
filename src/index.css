@@ -6,7 +6,7 @@
   display: none;
 }
 .btn {
-    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-black transition-all active:scale-95 text-white mx-auto z-[49];
+    @apply flex gap-4 items-center justify-center cursor-pointer p-3 rounded-md bg-white transition-all active:scale-95 text-black font-bold mx-auto z-[49];
   }
 
   .btn-ping {
