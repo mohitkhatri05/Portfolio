@@ -28,7 +28,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="max-w-7xl grid md:grid-cols-2 gap-10  items-center">
+          <div className="max-w-7xl grid md:grid-cols-2 gap-10 mt-[-100px] items-center">
             <div className="space-y-6 ">
               <p className="text-xl font-bold mt-30 text-blue-50">
                 Hey there! I’m{" "}

@@ -1,9 +1,25 @@
 @import "tailwindcss";
 
+
 * {
   scroll-behavior: smooth;
 }
+@keyframes wave {
+  0% { transform: rotate(0deg); transform-origin: bottom right; }
+  10% { transform: rotate(14deg); transform-origin: bottom right; }
+  20% { transform: rotate(-8deg); transform-origin: bottom right; }
+  30% { transform: rotate(14deg); transform-origin: bottom right; }
+  40% { transform: rotate(-4deg); transform-origin: bottom right; }
+  50% { transform: rotate(10deg); transform-origin: bottom right; }
+  60% { transform: rotate(0deg); transform-origin: bottom right; }
+  100% { transform: rotate(0deg); transform-origin: bottom right; }
+}
 
+.hand-wave {
+  display: inline-block;
+  animation: wave 2s infinite;
+  transform-origin: bottom left;
+}
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
