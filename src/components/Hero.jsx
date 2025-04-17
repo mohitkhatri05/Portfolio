@@ -8,8 +8,7 @@ const Hero = () => {
   return (
 <section
       id="home"
-      className="min-h-screen w-full mt-[-200px] flex flex-col relative"
- 
+      className="mb-[-200px] w-full mt-[-200px] flex flex-col relative"
     >
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl mt-[-20px] text-lg font-light text-gray-300 text-center font-generalsans">
