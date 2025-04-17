@@ -33,7 +33,6 @@ const Contact = () => {
       transition={{ duration: 1, ease: "easeOut" }}
       className="text-white py-16 px-4 md:px-16"
       style={{
-       
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -41,8 +40,11 @@ const Contact = () => {
     >
       <div className="min-h-screen text-white px-4 flex flex-col items-center justify-center">
         {/* Heading */}
-        <h2 className="sm:text-7xl text-4xl font-bold text-gray-200 text-center mb-16 bg-clip-text bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight">
-          Skills
+        <h2
+          className="flex justify-center align-middle text-[240px] font-bold text-transparent
+               bg-clip-text bg-gradient-to-b from-white/55 to-black"
+        >
+          COLLAB ?
         </h2>
 
         {/* Contact box */}
@@ -52,7 +54,10 @@ const Contact = () => {
             <h3 className="text-3xl font-bold mb-6">Connect with me</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="fname" className="block text-sm font-medium mb-1">
+                <label
+                  htmlFor="fname"
+                  className="block text-sm font-medium mb-1"
+                >
                   Name
                 </label>
                 <input
@@ -65,7 +70,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-sm font-medium mb-1">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium mb-1"
+                >
                   Email
                 </label>
                 <input
@@ -78,7 +86,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-1">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium mb-1"
+                >
                   Message
                 </label>
                 <textarea
@@ -109,7 +120,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-     </motion.section>
+    </motion.section>
   );
 };
 

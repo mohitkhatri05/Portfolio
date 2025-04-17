@@ -1,4 +1,4 @@
-import React,{useRef} from "react";
+import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -22,21 +22,22 @@ const Tech = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <div >
-       <motion.div
-          id="tech"
-          ref={ref}
-          initial={{ opacity: 0, y: 50 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-6xl mx-auto text-center"
-        >
-      <section className="text-white py-16 px-4 md:px-16">
-       
+    <div>
+      <motion.div
+        id="tech"
+        ref={ref}
+        initial={{ opacity: 0, y: 50 }}
+        animate={isInView ? { opacity: 1, y: 0 } : {}}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        className="max-w-6xl mx-auto text-center"
+      >
+        <section className="text-white py-16 px-4 md:px-16">
           <div className="max-w-6xl mx-auto mt-10 text-center">
-            <h2 className="sm:text-9xl text-xl font-bold text-gray-200 text-center font-stretch-ultra-expanded 
-            bg-clip-text bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight ">
-              Skills  
+            <h2
+              className="flex justify-center align-middle text-[240px] font-bold text-transparent
+               bg-clip-text bg-gradient-to-b from-white/55 to-black"
+            >
+              Skills
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
@@ -60,15 +61,17 @@ const Tech = () => {
           </div>
 
           <div className="max-w-6xl mx-auto text-center mt-16">
-            <h2 className="sm:text-9xl text-xl font-bold text-gray-200 text-center font-stretch-ultra-expanded 
-            bg-clip-text bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight">
+            <h2
+              className="flex justify-center align-middle text-[240px] font-bold text-transparent
+               bg-clip-text bg-gradient-to-b from-white/55 to-black"
+            >
               Tools
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
               {tools.map((tool, index) => (
                 <motion.div
-                id="tech"
+                  id="tech"
                   key={index}
                   initial={{ opacity: 0, y: 30 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -88,11 +91,9 @@ const Tech = () => {
               ))}
             </div>
           </div>
-       
-      </section>
+        </section>
       </motion.div>
     </div>
-    
   );
 };
 

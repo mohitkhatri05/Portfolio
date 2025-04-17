@@ -21,8 +21,8 @@ const About = () => {
         <section className="text-white px-4 md:px-18 mt-[-20px]">
           <div>
             <p
-              className="sm:text-9xl text-xl font-bold text-gray-200 text-center font-stretch-ultra-expanded bg-clip-text 
-            bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight"
+              className=" flex justify-center align-middle text-[240px] font-bold text-transparent
+               bg-clip-text bg-gradient-to-b from-white/55 to-black"
             >
               ABOUT ME
             </p>
@@ -46,7 +46,6 @@ const About = () => {
                 new every day. Let’s build something awesome together!
               </p>
               <div className="mt-[-200px]">
-               
                 <a href="#contact" className="">
                   <Button
                     className=""
