@@ -3,18 +3,18 @@ import { motion, useInView } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const techStack = [
-  { name: "Vue.js", icon: "/icons/vue.svg" },
-  { name: "TypeScript", icon: "/icons/typescript.svg" },
-  { name: "React", icon: "/icons/react.svg" },
-  { name: "JavaScript", icon: "/icons/javascript.svg" },
-  { name: "Node.js", icon: "/icons/nodejs.svg" },
-  { name: "MongoDB", icon: "/icons/mongodb.svg" },
+  { name: "Html", icon: "/portfolio_assets/html-5.svg" },
+  { name: "Css", icon: "/portfolio_assets/css3.svg" },
+  { name: "Tailwind Css", icon: "/portfolio_assets/tailwind-css.svg" },
+  { name: "JavaScript", icon: "/portfolio_assets/javascript.svg" },
+  { name: "React.js", icon: "/portfolio_assets/react.svg" },
+  { name: "Programming In C", icon: "/portfolio_assets/c-programming.svg" },
 ];
 
 const tools = [
-  { name: "Git", icon: "/icons/git.svg" },
-  { name: "Figma", icon: "/icons/figma.svg" },
-  { name: "VS Code", icon: "/icons/vscode.svg" },
+  { name: "Git", icon: "/portfolio_assets/git.svg" },
+  { name: "Github", icon: "/portfolio_assets/github.svg" },
+  { name: "VS Code", icon: "/portfolio_assets/vs-code.svg" },
 ];
 
 const Tech = () => {
