@@ -9,9 +9,9 @@ import About from "./components/About.jsx";
 import Tech from "./components/Tech.jsx";
 import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
-import Footer from "./components/footer.jsx";
+import Footer from "./components/Footer.jsx";
 import LampDemo from "./components/lamp-demo";
-
+import LampDemoFooter from "./components/LampDemoFooter";
 
 
 function App() {
@@ -29,7 +29,10 @@ function App() {
         <Tech />
         <Project />
         <Contact />
+     <LampDemoFooter>
         <Footer />
+      </LampDemoFooter> 
+
         
       </div>
       

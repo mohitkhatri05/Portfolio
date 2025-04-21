@@ -1,4 +1,4 @@
-.card-container {
+/* .card-container {
   perspective: 1000px;
   display: flex;
   justify-content: center;
@@ -24,4 +24,31 @@
 
 .card-body:hover .card-item {
   transform: translateZ(50px);
+} */
+
+.card-container {
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container:hover .card-body {
+  transform: rotateY(15deg) rotateX(10deg);
+}
+
+.card-item {
+  will-change: transform;
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
 }
