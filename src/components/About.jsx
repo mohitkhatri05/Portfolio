@@ -57,11 +57,11 @@ const About = () => {
             </div>
 
             {/* 3D Animated Image Card */}
-            <CardContainer className="inter-var">
+            <CardContainer className="inter-var   ">
               <CardBody
                 className="bg-gray-50 relative group/card  dark:hover:shadow-2xl
        dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] 
-       h-auto rounded-xl p-6 border  "
+     rounded-xl h-150 p-6 border   "
               >
                 <CardItem
                   translateZ="50"
@@ -89,25 +89,32 @@ const About = () => {
                   />
                 </CardItem>
                 <div className="flex justify-between items-center mt-20">
-                  <CardItem
+                  {/* <CardItem
                     translateZ={20}
-                    as="button"
-                    className="px-4 py-2 rounded-xl text-xs font-normal cursor-pointer  dark:text-white" 
-                    style={{ backgroudImage: "" }}
-                    href="https://twitter.com/mannupaaji"
+                    as="a"
+                    href="https://www.facebook.com"
                     target="__blank"
-                    
-
+                    className="px-4 py-2 rounded-xl  text-white text-xs font-bold flex items-center"
                   >
-                    Try now →
-                  </CardItem>
-                  <CardItem
+                    <img
+                      src="/portfolio_assets/github.svg"
+                      alt=""
+                      height="50"
+                      width="50"
+                      className="mr-2"
+                    />
+                    
+                  </CardItem> */}
+                 
+                    
+                
+                  {/* <CardItem
                     translateZ={20}
                     as="button"
                     className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                   >
                     Sign up
-                  </CardItem>
+                  </CardItem> */}
                 </div>
               </CardBody>
             </CardContainer>
