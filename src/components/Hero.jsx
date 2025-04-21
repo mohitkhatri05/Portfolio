@@ -31,7 +31,7 @@ const Hero = () => {
         className="flex justify-center items-center mt-[-150px]"
       >
         <Button
-          name="Let's work together"
+          name="Let's Talk"
           isBeam
           containerClass="sm:w-fit w-full  sm:min-w-96 "
         />
