@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+
 const footer = () => {
   return (
-    <div>
-      <footer className="bg-zinc-900 text-white py-10 px-6">
+
+      <footer   className="relative text-white py-20 ">
+         
+  
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand Info */}
           <div>
@@ -18,7 +22,7 @@ const footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="text-lg font-semibold mb-3">Quick Links</h4>
-            <ul className="space-y-2 text-gray-400 text-sm">
+            <ul className="space-y-2 text-gray-200 text-sm">
               <li>
                 {" "}
                 <Link
@@ -54,7 +58,7 @@ const footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-3">Contact</h4>
-            <ul className="space-y-2 text-gray-400 text-sm">
+            <ul className="space-y-2 text-gray-200 text-sm">
               <li>📞 +91 7023533480</li>
               <li>📧 mohitkhatri86005.com</li>
               <li>📍 Jaipur, Rajasthan</li>
@@ -62,14 +66,18 @@ const footer = () => {
           </div>
         </div>
 
-        <div className="mt-10  pt-6 text-center text-sm text-gray-500">
+        <div className="mt-10  pt-6 text-center text-sm text-gray-200">
           Made with <span className="text-red-500">❤️</span> by Mohit khatri
         </div>
-        <div className="mt-10 border-t border-zinc-700 pt-6 text-center text-sm text-gray-500">
+        <div className="mt-10 border-t border-zinc-700 pt-6 text-center text-sm text-gray-200">
+      
           <p>&copy; 2025 Mohit. All rights reserved.</p>
+        
         </div>
+        
       </footer>
-    </div>
+    
+   
   );
 };
 

@@ -28,21 +28,28 @@ const About = () => {
             </p>
           </div>
 
-          <div className="max-w-7xl grid   md:grid-cols-2 gap-10 mt-[-120px]
-           items-center">
+          <div
+            className="max-w-7xl grid   md:grid-cols-2 gap-10 mt-[-120px]
+           items-center"
+          >
             <div className="mt-[-40px]">
               <p className="text-xl mb-4 text-blue-50">Hey there! I’m </p>
               <h2 className="text-5xl font-bold ">
                 <span className="block mb-4 text-white">MOHIT KHATRI,</span>
               </h2>
               <p className="   mb-4 text-white ">
-              I’m a passionate Frontend Developer and a fresh face in the tech world, building creative and responsive projects using HTML, CSS, JavaScript, React.js, and Tailwind CSS.
+                I’m a passionate Frontend Developer and a fresh face in the tech
+                world, building creative and responsive projects using HTML,
+                CSS, JavaScript, React.js, and Tailwind CSS.
               </p>
               <p className="  mb-4 text-white">
-              I thrive on crafting clean designs, intuitive user experiences, and learning something new every day. Let’s bring ideas to life and build something amazing together!
+                I thrive on crafting clean designs, intuitive user experiences,
+                and learning something new every day. Let’s bring ideas to life
+                and build something amazing together!
               </p>
               <p className=" text-white">
-              Let’s team up and build something awesome—be it a project, a website, or just geeking out on design and code!
+                Let’s team up and build something awesome—be it a project, a
+                website, or just geeking out on design and code!
               </p>
               <div className="mt-[-100px]">
                 <a href="#contact" className="">
@@ -66,16 +73,12 @@ const About = () => {
                 <CardItem
                   translateZ="50"
                   className="text-xl font-bold text-neutral-600 dark:text-white"
-                >
-                 
-                </CardItem>
+                ></CardItem>
                 <CardItem
                   as="p"
                   translateZ="60"
                   className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
-                >
-                 
-                </CardItem>
+                ></CardItem>
                 <CardItem
                   translateZ="100"
                   className="w-full h-120 object-contain overflow-hidden mt-4"
@@ -105,9 +108,7 @@ const About = () => {
                     />
                     
                   </CardItem> */}
-                 
-                    
-                
+
                   {/* <CardItem
                     translateZ={20}
                     as="button"
@@ -185,7 +186,7 @@ export default About;
 //           <motion.div style={{ opacity: cardOpacity, y: cardTranslateY }}>
 //             <CardContainer className="inter-var">
 //               <CardBody
-//                 className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] 
+//                 className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1]
 //                 dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border"
 //               >
 //                 <CardItem translateZ="50" className="text-xl font-bold text-neutral-600 dark:text-white">
