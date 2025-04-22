@@ -233,27 +233,37 @@ const Tech = () => {
 
           {/* Tools Section */}
           <div className="mt-24">
-            <h2 className="text-[100px] sm:text-[150px] md:text-[200px] font-bold text-transparent bg-clip-text bg-gradient-to-b from-white/55 to-black mb-12">
+            <h2 className="text-[100px] sm:text-[150px] md:text-[200px] 
+            font-bold text-transparent bg-clip-text bg-gradient-to-b
+             from-white/30 to-black">
               Tools
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-              {tools.map((tool, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={isInView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ delay: index * 0.15, duration: 0.6 }}
-                  className="bg-gray-900 rounded-xl p-6 flex flex-col items-center justify-center shadow-md hover:shadow-purple-500/30 transition-shadow duration-300"
-                >
-                  <img
-                    src={tool.icon}
-                    alt={tool.name}
-                    className="w-20 h-20 mb-4 object-contain"
-                  />
-                  <p className="text-lg font-semibold text-gray-100">
-                    {tool.name}
-                  </p>
-                </motion.div>
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 gap-y-0.5 mt-[-100px]">
+              {tools.map((tools, index) => (
+                <CardContainer key={index} className="inter-var">
+                  <CardBody className="bg-gray-900 rounded-xl border
+                   border-white/10 p-8 w-full h-[300px] flex flex-col 
+                   items-center justify-center hover:shadow-lg transition-all
+                    duration-300">
+                   
+                    <CardItem
+                      translateZ="100"
+                      className="w-full flex justify-center"
+                    >
+                      <img
+                        src={tools.icon}
+                        alt={tools.name}
+                        className="h-60 w-50 object-contain"
+                      />
+                    </CardItem>
+                    <CardItem
+                      translateZ="50"
+                      className="text-lg font-bold text-white mb-4"
+                    >
+                      {tools.name}
+                    </CardItem>
+                  </CardBody>
+                </CardContainer>
               ))}
             </div>
           </div>
