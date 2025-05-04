@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const footer = () => {
   return (
 
-      <footer   className="relative text-white py-20 ">
+      <footer   className="relative text-white py-10 ">
          
   
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -66,7 +66,7 @@ const footer = () => {
           </div>
         </div>
 
-        <div className="mt-10  pt-6 text-center text-sm text-gray-200">
+        <div className="mt-10 flex justify-center  pt-6 text-center text-sm text-gray-200">
           Made with <span className="text-red-500">❤️</span> by Mohit khatri
         </div>
         <div className="mt-10 border-t border-zinc-700 pt-6 text-center text-sm text-gray-200">

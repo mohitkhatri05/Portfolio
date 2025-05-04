@@ -391,7 +391,7 @@ const projects = [
     title: "Unlimited-color",
     tags: ["JavaScript", "API", "HTML", "CSS"],
     description: "Endless beautiful random color generator.",
-    image: "/projects/pokedex.png",
+    image: "/portfolio_assets/unlimited_color.png",
     live: "https://unlimited-color-kappa.vercel.app/",
     code: "https://github.com/mohitkhatri05/unlimited-color.git",
   },
@@ -399,7 +399,7 @@ const projects = [
     title: "Color Changer",
     tags: ["JavaScript", "API", "HTML", "CSS"],
     description: "Simple tool to change background colors.",
-    image: "/projects/pokedex.png",
+    image: "/portfolio_assets/color_changer.png",
     live: "https://color-changer-rose-ten.vercel.app/",
     code: "https://github.com/mohitkhatri05/color-changer.git",
   },
@@ -525,7 +525,7 @@ const Project = () => {
                   <a
                     target="_blank"
                     href={project.live}
-                    className="bg-orange-400 hover:bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-semibold transition"
+                    className="bg-white hover:bg-gray-300 text-black px-4 py-1 rounded-full text-sm font-semibold transition"
                   >
                     Live View
                   </a>
@@ -538,7 +538,7 @@ const Project = () => {
           <div className="absolute left-0 top-1/2 -translate-y-1/2 z-10">
             <button
               onClick={() => scroll("left")}
-              className="bg-amber-500 border p-2 rounded-full shadow hover:bg-amber-950 transition cursor-pointer"
+              className="bg-black hover:bg-gray-900 border p-2 rounded-full shadow transition cursor-pointer"
             >
               <FaArrowLeft />
             </button>
@@ -546,7 +546,7 @@ const Project = () => {
           <div className="absolute right-0 top-1/2 -translate-y-1/2 z-10">
             <button
               onClick={() => scroll("right")}
-              className="bg-amber-500 border p-2 rounded-full shadow hover:bg-amber-950 transition cursor-pointer"
+              className=" border p-2 rounded-full shadow bg-black hover:bg-gray-900 transition cursor-pointer"
             >
               <FaArrowRight />
             </button>

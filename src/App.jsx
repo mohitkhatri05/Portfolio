@@ -11,7 +11,6 @@ import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import LampDemo from "./components/lamp-demo";
-import LampDemoFooter from "./components/LampDemoFooter";
 
 
 function App() {
@@ -20,22 +19,18 @@ function App() {
   return (
     <>
       <div className="bg-black text-white">
-      {/* <LampDemo /> */}
+        {/* <LampDemo /> */}
         <Navbar />
-     <LampDemo>
-      <Hero />
-     </LampDemo>
+        <LampDemo>
+          <Hero />
+        </LampDemo>
         <About />
         <Tech />
         <Project />
         <Contact />
-     <LampDemoFooter>
-        <Footer />
-      </LampDemoFooter> 
 
-        
+        <Footer />
       </div>
-      
     </>
   );
 }

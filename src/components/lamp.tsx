@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import clsx from "clsx";
 
-import SciFiComp from './sci-fi-comp';
+
 import Button from './Button'
 
 export const LampContainer = ({

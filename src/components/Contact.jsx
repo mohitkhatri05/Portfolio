@@ -42,14 +42,22 @@ const Contact = () => {
         {/* Heading */}
         <h2
           className="flex justify-center align-middle text-[240px] font-bold text-transparent
-               bg-clip-text bg-gradient-to-b from-white/55 to-black"
+               bg-clip-text bg-gradient-to-b from-white/30 to-black"
         >
           COLLAB ?
         </h2>
 
         {/* Contact box */}
         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
+        <div className="flex justify-center items-center">
+            <img
+              src="/portfolio_assets/myghibli.png"
+              alt="my img"
+              className="max-w-full rounded-2xl shadow-xl"
+            />
+          </div>
           {/* Form */}
+
           <div className="bg-white/5 backdrop-blur-md p-8 rounded-2xl shadow-2xl">
             <h3 className="text-3xl font-bold mb-6">Connect with me</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -66,7 +74,8 @@ const Contact = () => {
                   name="fname"
                   placeholder="Your Name"
                   required
-                  className="w-full px-4 py-2 bg-white/10 text-white rounded-xl border border-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-4 py-2 bg-white/10 text-white rounded-xl border border-white/20 
+                  focus:outline-none focus:ring-2 focus:ring-white"
                 />
               </div>
               <div>
@@ -82,7 +91,8 @@ const Contact = () => {
                   name="email"
                   placeholder="you@example.com"
                   required
-                  className="w-full px-4 py-2 bg-white/10 text-white rounded-xl border border-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-4 py-2 bg-white/10 text-white rounded-xl border border-white/20 
+                  focus:outline-none focus:ring-2 focus:ring-white"
                 />
               </div>
               <div>
@@ -98,12 +108,14 @@ const Contact = () => {
                   placeholder="Your message..."
                   rows="5"
                   required
-                  className="w-full px-4 py-2 bg-white/10 text-white rounded-xl border border-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full resize-none px-4 py-2 bg-white/10 text-white rounded-xl border border-white/20 
+                  focus:outline-none focus:ring-2 focus:ring-white"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 transition-colors duration-200 py-2 rounded-xl text-white font-semibold"
+                className="w-full bg-white hover:bg-white/45 transition-colors duration-200 
+                py-2 rounded-xl text-black font-semibold"
               >
                 Send Message
               </button>
@@ -111,13 +123,7 @@ const Contact = () => {
           </div>
 
           {/* Image */}
-          <div className="flex justify-center items-center">
-            <img
-              src="/portfolio_assets/myghibli.png"
-              alt="my img"
-              className="max-w-full rounded-2xl shadow-xl"
-            />
-          </div>
+       
         </div>
       </div>
     </motion.section>
