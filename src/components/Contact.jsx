@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import AntiqueTelephone from "./AntiqueTelephone.jsx"; // Adjust the path as necessary
 
 const Contact = () => {
   const ref = useRef(null);
@@ -38,10 +39,14 @@ const Contact = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="min-h-screen text-white px-4 flex flex-col items-center justify-center">
+      <div
+        className="min-h-screen text-white  flex flex-col 
+      items-center justify-center"
+      >
         {/* Heading */}
         <h2
-          className="flex justify-center align-middle text-[240px] font-bold text-transparent
+          className="flex justify-center align-middle text-[240px]
+           font-bold text-transparent mb-[-100px]
                bg-clip-text bg-gradient-to-b from-white/30 to-black"
         >
           COLLAB ?
@@ -49,12 +54,11 @@ const Contact = () => {
 
         {/* Contact box */}
         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
-        <div className="flex justify-center items-center">
-            <img
-              src="/portfolio_assets/myghibli.png"
-              alt="my img"
-              className="max-w-full rounded-2xl shadow-xl"
-            />
+          <div className="flex justify-center items-center w-full h-full inset-0 ">
+            <div className="w-full m-0 p-0 h-full max-w-[600px] max-h-[500px]">
+              <h1></h1>
+              <AntiqueTelephone />
+            </div>
           </div>
           {/* Form */}
 
@@ -123,7 +127,6 @@ const Contact = () => {
           </div>
 
           {/* Image */}
-       
         </div>
       </div>
     </motion.section>
