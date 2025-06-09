@@ -16,7 +16,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: [  '@formspree/react'], // Externalize 'three' to avoid resolution issues during build
+       // Externalize 'three' to avoid resolution issues during build
     },
   },
 })
