@@ -46,7 +46,7 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-3">Contact</h4>
           <ul className="space-y-2 text-gray-200 text-sm">
             <li>📞 +91 7023533480</li>
-            <li>📧 mohitkhatri86005.com</li>
+            <li>📧 mohitkhatri86005@gmail.com</li>
             <li>📍 Jaipur, Rajasthan</li>
           </ul>
         </div>

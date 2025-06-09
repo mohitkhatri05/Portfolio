@@ -11,8 +11,6 @@ import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import LampDemo from "./components/lamp-demo";
-
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -28,7 +26,6 @@ function App() {
         <Tech />
         <Project />
         <Contact />
-
         <Footer />
       </div>
     </>

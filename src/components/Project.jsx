@@ -380,6 +380,14 @@ const projects = [
     code: "https://github.com/mohitkhatri05/tic_tac_toe_game.git",
   },
   {
+    title: "To-do list app",
+    tags: ["React js", "API", "HTML", "Tailwind-CSS"],
+    description: "Engineered for focus.-To-do list app.",
+    image: "/portfolio_assets/to-do-list.png",
+    live: "https://to-do-list-sigma-ten-97.vercel.app/",
+    code: "https://github.com/mohitkhatri05/todolist.git",
+  },
+  {
     title: "Rock-Paper-Scissor-Game",
     tags: ["WebGL", "JavaScript", "HTML", "CSS"],
     description: "Fun hand-gesture game against computer.",
@@ -496,7 +504,7 @@ const Project = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="rounded-xl h-100 object-cover mb-4 "
+                  className="rounded-xl h-100 object-center mb-4 "
                 />
                 <h3 className="text-xl font-semibold text-white">
                   {project.title}

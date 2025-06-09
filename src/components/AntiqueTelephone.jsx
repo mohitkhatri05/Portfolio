@@ -68,7 +68,7 @@ const AntiqueTelephone = () => {
     <Canvas
       shadows
       camera={{ position: [0, 0, 20], fov: 50 }} // 👈 Directly in front
-      style={{ width: "100%", height: "100%" }}
+      style={{ width: "500px", height: "500px" }}
     >
       <ambientLight intensity={1.2} />
       <directionalLight position={[5, 5, 5]} intensity={2} castShadow />

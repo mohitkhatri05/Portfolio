@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
+import { OrbitControls, useGLTF ,Html} from '@react-three/drei';
 import { motion } from 'framer-motion-3d';
 import * as THREE from 'three';
 
@@ -62,7 +62,16 @@ const SciFiComp = () => {
       <ambientLight intensity={0.8} />
       <directionalLight position={[5, 5, 5]} intensity={1.5} />
       <spotLight position={[0, 5, 10]} angle={0.3} intensity={2} penumbra={1} castShadow />
-      <Model />
+     
+       <Suspense
+              fallback={
+                <Html>
+                  <p style={{ color: "white" }}>Loading model...</p>
+                </Html>
+              }
+            >
+              <Model />
+            </Suspense>
     </Canvas>
   );
 };
