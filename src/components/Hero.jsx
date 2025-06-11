@@ -45,7 +45,7 @@
 
 
 import React from "react";
-import SciFiComp from "./Sci-fi-comp";
+// import SciFiComp from "./Sci-fi-comp";
 import Button from "./Button";
 
 const Hero = () => {
@@ -78,7 +78,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="w-full h-full inset-0 absolute pointer-events-none">
-        <SciFiComp />
+        {/* <SciFiComp /> */}
       </div>
       <a
         href="#contact"

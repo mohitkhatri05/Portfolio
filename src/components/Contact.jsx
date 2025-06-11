@@ -114,7 +114,7 @@
 import React, { useRef } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { motion, useInView } from "framer-motion";
-import AntiqueTelephone from "./AntiqueTelephone.jsx"; // Adjust path as needed
+// import AntiqueTelephone from "./AntiqueTelephone.jsx"; // Adjust path as needed
 
 const Contact = () => {
   const ref = useRef(null);
@@ -150,7 +150,7 @@ const Contact = () => {
   sm:max-h-[450px] md:max-h-[500px]
    mx-auto"
             >
-              <AntiqueTelephone />
+              {/* <AntiqueTelephone /> */}
             </div>
           </div>
           {/* Right: Contact Form */}
