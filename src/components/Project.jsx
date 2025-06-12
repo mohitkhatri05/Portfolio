@@ -498,13 +498,15 @@ const Project = () => {
               <div
                 key={idx}
                 ref={(el) => (cardRefs.current[idx] = el)}
-                className="flex-shrink-0 h-[600px]  w-[400px] border-white/[0.2] border  rounded-2xl 
-                shadow-md p-4 snap-center transition hover:shadow-xl cursor-pointer"
+                className="flex-shrink-0 h-[600px] w-[90vw] max-w-xs 
+                 border-white/[0.2] border  rounded-2xl 
+                shadow-md p-4 snap-center transition hover:shadow-xl
+                 cursor-pointer"
               >
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="rounded-xl h-100 object-center mb-4 "
+                  className="rounded-xl h-100 object-contain mb-4 "
                 />
                 <h3 className="text-xl font-semibold text-white">
                   {project.title}
@@ -566,3 +568,6 @@ const Project = () => {
 };
 
 export default Project;
+
+
+

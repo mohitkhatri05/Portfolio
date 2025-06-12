@@ -219,7 +219,8 @@ const About = () => {
               <CardBody
                 className="
                   relative group/card dark:hover:shadow-2xl
-                  dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2]
+                  dark:hover:shadow-emerald-500/[0.1] dark:bg-black
+                   dark:border-white/[0.2]
                   border-black/[0.1] w-full sm:w-[26rem] md:w-[30rem] max-w-full
                   rounded-xl h-auto p-4 sm:p-6 border mx-auto
                 "
@@ -231,17 +232,20 @@ const About = () => {
                 <CardItem
                   as="p"
                   translateZ="60"
-                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                  className="text-neutral-500 text-sm max-w-sm mt-2
+                   dark:text-neutral-300"
                 ></CardItem>
                 <CardItem
                   translateZ="100"
-                  className="w-full h-120 sm:h-150 overflow-hidden object-contain  mt-4"
+                  className="w-full h-120 sm:h-150 overflow-hidden object-contain 
+                   mt-4"
                 >
                   <img
                     src="/portfolio_assets/myghibli.png"
                     height="1000"
                     width="1000"
-                    className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                    className="h-full w-full object-cover rounded-xl 
+                    group-hover/card:shadow-xl"
                     alt="thumbnail"
                   />
                 </CardItem>
