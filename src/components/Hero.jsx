@@ -39,13 +39,12 @@ const Hero = () => {
       <div className="w-full h-full inset-0 absolute pointer-events-none">
         {/* <SciFiComp /> */}
       </div>
-<div className="mt-6 md:mt-[-180px]">
+<div className="mt-8 sm:mt-12 md:mt-[-180px] flex justify-center ">
                 <a href="#contact">
                   <Button
-                    name="Let’s Connect !"
+                    name="Let’s Talk !"
                     isBeam
-                    containerClass="w-full  sm:w-fit sm:min-w-96"
-                  />
+                    containerClass="w-full sm:w-fit sm:min-w-96"/>
                 </a>
               </div>
     </section>
@@ -53,6 +52,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
-
