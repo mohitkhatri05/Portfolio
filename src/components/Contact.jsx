@@ -152,23 +152,19 @@ const Contact = () => {
         <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-8
          sm:gap-10 items-center mt-8">
           {/* Left: 3D Model */}
-          <div className="flex justify-center items-center w-full h-full md:mb-0 mb-30 pr-40">
-            <div
-              className="w-full max-w-[350px] sm:max-w-[450px] md:max-w-[600px] max-h-[350px] 
-  sm:max-h-[450px] md:max-h-[500px]
-   mx-auto"
-            >
+          <div className="flex justify-center items-center w-full h-full md:mb-0 mb-8">
+            <div className="w-full max-w-xs sm:max-w-md md:max-w-lg mx-auto">
               {/* <AntiqueTelephone /> */}
               {/* 3D Animated Image Card */}
-              <div className="flex justify-center items-center w-full h-full mt-[-180px]">
-                <CardContainer className="inter-var w-[800px] ">
+              <div className="flex justify-center items-center w-full h-full mt-[-10px]">
+                <CardContainer className="inter-var w-full">
                   <CardBody
                     className="
-                                relative group/card dark:hover:shadow-2xl
-                                dark:hover:shadow-emerald-500/[0.1] dark:bg-black
-                                 dark:border-white/[0.2]
-                                border-black/[0.1] sm:w-[26rem] md:w-[30rem] 
-                                rounded-xl h-135 mt-20 p-4 sm:p-6 border mx-auto"
+          relative group/card dark:hover:shadow-2xl
+          dark:hover:shadow-emerald-500/[0.1] dark:bg-black
+          dark:border-white/[0.2] border-black/[0.1]
+          w-full sm:w-full md:w-full max-w-full
+          rounded-xl h-auto p-4 sm:p-6 border mx-auto"
                   >
                     <CardItem
                       translateZ="50"
@@ -177,20 +173,17 @@ const Contact = () => {
                     <CardItem
                       as="p"
                       translateZ="60"
-                      className="text-neutral-500 text-sm max-w-sm mt-2
-                                 dark:text-neutral-300"
+                      className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                     ></CardItem>
                     <CardItem
                       translateZ="100"
-                      className="w-full sm:h-150 overflow-hidden object-contain 
-                                 mt-4"
+                      className="w-full overflow-hidden object-contain mt-4"
                     >
                       <img
                         src="/portfolio_assets/earth1.png"
                         height="1000"
                         width="1000"
-                        className="h-full mt-[-45px] w-full object-contain rounded-xl 
-                                  group-hover/card:shadow-xl"
+                        className="w-full h-auto object-contain rounded-xl group-hover/card:shadow-xl"
                         alt="EARTH"
                       />
                     </CardItem>
