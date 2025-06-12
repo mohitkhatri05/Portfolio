@@ -12,9 +12,9 @@ const Hero = () => {
       sm:mt-36 mt-20 px-4">
         <p className="flex justify-center items-center text-lg 
         sm:text-3xl font-light text-gray-300 text-center 
-        font-generalsans mt-[-10px] sm:mt-[-20px]">
+         mt-[-10px] sm:mt-[-20px]">
           <span className="hand-wave text-2xl sm:text-3xl">👋</span>
-          <span className="ml-2">Hello I am</span>
+          <span className="">Hello I am</span>
         </p>
         <p
           className="
@@ -30,6 +30,11 @@ const Hero = () => {
         >
           Mohit Khatri
         </p>
+        <p className="
+          font-light  mt-8 flex justify-center items-center text-lg 
+        sm:text-3xl  text-gray-300 text-center 
+         ">A Passionate Web Developer <span className="fire-emoji">🔥</span>
+</p>
       </div>
       <div className="w-full h-full inset-0 absolute pointer-events-none">
         {/* <SciFiComp /> */}

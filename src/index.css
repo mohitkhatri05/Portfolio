@@ -29,6 +29,27 @@ html, body {
   60% { transform: rotate(0deg); transform-origin: bottom right; }
   100% { transform: rotate(0deg); transform-origin: bottom right; }
 } 
+/* Add this to your global CSS file (e.g. index.css or tailwind.css) */
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+  20%, 24%, 55% {
+    opacity: 0.7;
+    transform: scale(1.1) rotate(-2deg);
+  }
+  22%, 53% {
+    opacity: 0.6;
+    transform: scale(0.95) rotate(1deg);
+  }
+}
+
+.fire-emoji {
+  display: inline-block;
+  animation: flicker 1s infinite;
+}
+
 
 .hand-wave {
   display: inline-block;
