@@ -88,7 +88,8 @@ const Navbar = () => {
 
         {/* Mobile Dropdown */}
         {toggle && (
-          <div className="sm:hidden absolute top-full left-0 w-full bg-black bg-opacity-95 p-6 z-40 rounded-b-xl shadow-md">
+          <div className="sm:hidden absolute top-full left-0 w-full bg-black bg-opacity-95 
+          p-6 z-40 rounded-b-xl shadow-md">
             <ul className="flex flex-col items-center gap-5">
               {navLinks.map((link) => (
                 <li
@@ -107,7 +108,7 @@ const Navbar = () => {
               <li className="mt-4">
                 <a
                   href="/portfolio_assets/Mohit_Khatri_frontend_developer_CV (1).pdf"
-                  className="bg-amber-500 text-black hover:bg-amber-600 rounded-full py-2 px-6 text-sm font-semibold"
+                  className="bg-black text-white hover:bg-white rounded-full py-2 px-6 text-sm font-semibold"
                 >
                   Resume
                 </a>
