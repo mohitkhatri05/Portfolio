@@ -108,7 +108,7 @@ const Navbar = () => {
               <li className="mt-4">
                 <a
                   href="/portfolio_assets/Mohit_Khatri_frontend_developer_CV (1).pdf"
-                  className="bg-black text-white hover:bg-white hover:text-white rounded-full py-2 px-6 text-sm font-semibold"
+                  className="bg-white text-black rounded-full py-2 px-6 text-sm font-semibold"
                 >
                   Resume
                 </a>
