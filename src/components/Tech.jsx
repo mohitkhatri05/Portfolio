@@ -38,7 +38,7 @@ const Tech = () => {
           <div className="">
             <h2 className="text-[100px] sm:text-[150px] md:text-[200px] 
             font-bold text-transparent bg-clip-text bg-gradient-to-b
-             from-white/30 to-black ">
+             from-white">
               Skills
             </h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 gap-y-0.5 mt-[-100px]">
@@ -75,7 +75,7 @@ const Tech = () => {
           <div className="mt-24">
             <h2 className="text-[100px] sm:text-[150px] md:text-[200px] 
             font-bold text-transparent bg-clip-text bg-gradient-to-b
-             from-white/30 to-black">
+             from-white">
               Tools
             </h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 gap-y-0.5 mt-[-100px]">

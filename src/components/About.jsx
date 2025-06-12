@@ -166,7 +166,7 @@ const About = () => {
                 flex justify-center items-center text-center
                 text-[100px] sm:text-[150px] md:text-[200px] lg:text-[240px]
             font-bold text-transparent bg-clip-text bg-gradient-to-b
-             from-white/30 to-black
+             from-white
               "
               style={{
                 lineHeight: 1,

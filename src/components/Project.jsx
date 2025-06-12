@@ -480,7 +480,7 @@ const Project = () => {
         <h2
           className="flex justify-center align-middle text-[100px] sm:text-[150px] md:text-[200px] 
           font-bold text-transparent bg-clip-text bg-gradient-to-b
-          from-white/30 to-black"
+          from-white"
         >
           Projects
         </h2>

@@ -20,7 +20,7 @@ const Hero = () => {
           className="
             flex justify-center items-center
             font-bold text-transparent bg-clip-text bg-gradient-to-b 
-            from-white/70 to-black
+            from-white 
             font-generalsans
             text-[100px] xs:text-[64px] sm:text-[150px] md:text-[200px] 
             lg:text-[230px]

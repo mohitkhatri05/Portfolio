@@ -144,7 +144,7 @@ const Contact = () => {
           className="text-[100px] sm:text-[150px]  md:text-[200px] 
             font-bold text-transparent text-center whitespace-nowrap
              bg-clip-text bg-gradient-to-b
-             from-white/30 to-black"
+             from-white"
         >
           COLLAB&nbsp;?
         </h2>
