@@ -241,7 +241,7 @@ const About = () => {
                    mt-4"
                 >
                   <img
-                    src="/portfolio_assets/myghibli.png"
+                    src="/portfolio_assets/cap.png"
                     height="1000"
                     width="1000"
                     className="h-full w-full object-cover rounded-xl 
