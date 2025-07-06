@@ -57,7 +57,7 @@ const Navbar = () => {
           {/* Desktop Resume Button */}
           <div className="hidden sm:block">
             <a
-              href="/portfolio_assets/Mohit_Khatri_frontend_developer_CV (1).pdf"
+              href="/portfolio_assets/Mohit_Khatri_MERN_stack_Resume.pdf"
               target="_blank"
             className="bg-black flex justify-center align-middle  rounded-full py-1 px-4.5 text-lg 
              text-gray-400 font hover:bg-white

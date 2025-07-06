@@ -363,6 +363,15 @@ import { div } from "framer-motion/client";
 
 const projects = [
   {
+    title: "FitTrackr (Under Pogress)",
+    tags: ["TailwindCSS", "MERN stack"],
+    description: "Record your workouts and stay fit, every day.",
+    image: "/portfolio_assets/bmi_calculator.png",
+
+    // live: "",
+    code: "https://github.com/mohitkhatri05/FitTrackr.git",
+  },
+  {
     title: "Bmi-Calculator",
     tags: ["JavaScript", "HTML", "CSS"],
     description: "Instantly calculate your body mass index.",
