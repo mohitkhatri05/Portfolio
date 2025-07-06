@@ -11,12 +11,18 @@ const techStack = [
   { name: "JavaScript", icon: "/portfolio_assets/javascript.svg" },
   { name: "React.js", icon: "/portfolio_assets/react.svg" },
   { name: "Programming In C", icon: "/portfolio_assets/c-programming.svg" },
+  { name: "Node.js", icon: "/portfolio_assets/nodejs.svg" },
+  { name: "Express.js", icon: "/portfolio_assets/express-js.svg" },
+  { name: "MongoDB", icon: "/portfolio_assets/mongodb.svg" },
 ];
 
 const tools = [
   { name: "Git", icon: "/portfolio_assets/git.svg" },
   { name: "Github", icon: "/portfolio_assets/github.svg" },
   { name: "VS Code", icon: "/portfolio_assets/vs-code.svg" },
+  { name: "Postman", icon: "/portfolio_assets/postman.svg" },
+
+
 ];
 
 const Tech = () => {
